@@ -17,3 +17,11 @@ Det här är en övning där jag lär mig grundläggande terminalkommandon. Syft
 - git branch, hanterar branches, dvs parallella "spår" av koden. Jag använde git branch -M main för att döpa om min huvudbranch till main.
 
 - git remote, kopplar min lokala mapp till ett repository på en server, t.ex. GitHub. Jag använde git remote add origin <url> för att koppla min lokala mapp till repot jag skapade på GitHub.
+
+## Vad är ett repository, en commit och en versionshistorik?
+
+Ett repository är själva "projektet" ur Gits perspektiv - en mapp där Git håller reda på alla filer och all historik av ändringar. Finns på en server i GitHub som man kan dela med andra samt lokalt i din dator.
+
+Commit däremot är en "sparad version" av dina filer vid en tidpunkt. Varje commit har ett meddelande som beskriver vad som ändrades. Tänk på det som ett foto av hur projektet såg ut just då, man kan alltid gå tillbaka och titta på ett tidigare foto.
+
+Versionshistorik är den samlade listan av alla commits som man har gjort i tidsordning - hela "livshistorien" för självaste projektet. Genom historiken kan man se hur koden vuxit fram, vem som gjort vad samt när.
